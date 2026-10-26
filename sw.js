@@ -1,5 +1,5 @@
 // Offline support: serve from cache first, refresh the cache in the background.
-const CACHE = "mamin-dom-v7";
+const CACHE = "mamin-dom-v8";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-180.png"];
 
 self.addEventListener("install", (e) => {
