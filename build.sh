@@ -19,11 +19,11 @@ cd "$HERE"
 npx --yes staticrypt@3.5.4 "$TMP/index.html" -d "$TMP/out" -p "$MOM_PASSWORD" --short \
   -c .staticrypt.json --remember 0 \
   --template-title "Мамин дом" \
-  --template-instructions "Введите пароль. Его нужно ввести только один раз." \
+  --template-instructions "Введи пароль. Его нужно ввести только один раз." \
   --template-placeholder "Пароль" \
   --template-button "Открыть" \
   --template-remember "Запомнить на этом телефоне" \
-  --template-error "Неверный пароль. Попробуйте ещё раз." \
+  --template-error "Неверный пароль. Попробуй ещё раз." \
   --template-toggle-show "Показать пароль" \
   --template-toggle-hide "Скрыть пароль" \
   --template-color-primary "#1f6f78" \
